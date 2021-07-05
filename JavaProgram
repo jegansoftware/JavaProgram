@@ -1,0 +1,22 @@
+package Java;
+
+public class JavaProgram {
+private int a;
+private int b;
+	public void eat(int a,int b)
+	{
+		this.a=a;
+		this.b=b;
+		System.out.printf("\nBefore:");
+		System.out.printf("\n--------");
+		System.out.printf("\nA = %d", a);
+		System.out.printf("\nB = %d",b);
+		a=a+b;
+		b=a-b;
+		a=a-b;
+		System.out.printf("\n\nAfter:");
+		System.out.printf("\n--------");
+		System.out.printf("\nA = %d",a);
+		System.out.printf("\nB = %d",b);
+	}
+}
